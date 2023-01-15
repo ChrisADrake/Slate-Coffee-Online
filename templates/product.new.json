@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "1b9cc87b-e939-4a62-8f57-423799f49c97": {
+          "type": "tax-movable",
+          "settings": {
+            "tax-notice-text": "no tax"
+          }
+        },
+        "431cbd04-048a-4f67-917e-f530c9f7d1d0": {
+          "type": "shipping-movable",
+          "settings": {
+            "shipping-notice-text": "ships in 2 wks"
+          }
+        }
+      },
+      "block_order": [
+        "1b9cc87b-e939-4a62-8f57-423799f49c97",
+        "431cbd04-048a-4f67-917e-f530c9f7d1d0"
+      ],
+      "settings": {
+        "show-reviews": false
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "blocks": {
+        "9c68dd8a-d695-461f-8f77-32fc2e806174": {
+          "type": "tax-movable",
+          "settings": {
+            "tax-notice-text": "tax included"
+          }
+        },
+        "33de05ac-fad9-4db5-b0ec-125e88695314": {
+          "type": "shipping-movable",
+          "settings": {
+            "shipping-notice-text": "ships within 7 days"
+          }
+        }
+      },
+      "block_order": [
+        "9c68dd8a-d695-461f-8f77-32fc2e806174",
+        "33de05ac-fad9-4db5-b0ec-125e88695314"
+      ],
+      "settings": {
+        "show-reviews": false
+      }
+    },
+    "71e69ecb-8da8-4fad-b13a-077adab9d810": {
+      "type": "image-with-text",
+      "blocks": {
+        "8851e3f9-ea51-424c-bd40-f03a21b5115c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "7bcd0612-603d-4c11-8ae5-6c6fb1e377c0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        }
+      },
+      "block_order": [
+        "8851e3f9-ea51-424c-bd40-f03a21b5115c",
+        "7bcd0612-603d-4c11-8ae5-6c6fb1e377c0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second",
+    "71e69ecb-8da8-4fad-b13a-077adab9d810"
+  ]
+}
